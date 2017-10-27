@@ -1,0 +1,99 @@
+
+1.
+Write a function that takes three arguments: a character ch and two integers r and c. The function
+should print the character ch r x c times in the form of r rows and c columns.
+Write a simple program that reads the appropriate variables and prints the result on the screen
+by calling the function.
+
+
+******************************************************************************
+
+
+2.
+Write a function void triple(int arr[], int size) that multiplies all elements of an
+initialized array by three. Your program should print the elements of the array before and after
+the multiplication. Test your program with an array that contains the hard coded values
+3, 2, 9, 3, 7, 12.
+
+
+******************************************************************************
+
+
+3.
+Write a function int count upper(char* str) that counts and returns the number of uppercase
+characters within a string. Then write a program where you repeatedly read a string
+from the keyboard and determine and print the number of uppercase characters in that string. If
+you provide an empty string (the string will just contain ’\n’), then the program should stop its
+execution. You must use a pointer to walk through the string.
+
+
+******************************************************************************
+
+
+4.
+Modify your program for Problem 6.2 such that you first read a number n, and then the elements
+of an array with n components. Therefore you will need to dynamically allocate your array. Then
+triple the elements using your previous triple() function and print the results on the screen.
+Do not forget to release the allocated memory when not needed anymore.
+
+
+******************************************************************************
+
+
+5.
+Write a program that reads from the keyboard a number n, and then a vector v of double values
+with n components (you are free to do this in any way you like, for example, read n lines, with
+one number on each). Write a function that computes the norm of this vector. The norm is defined
+as:
+
+|v| = sqrt(sum(v_i)^2)    where i = 1,...,n
+
+Use the function to compute the norm of the vector you read. From the main function print the
+value of the norm on the screen. Additionally, determine and print on the screen the smallest and
+largest components of the vector, and the positions in the vector where they occur.
+
+
+******************************************************************************
+
+
+6.
+Write a program which reads two positive integers n and m from the keyboard. Also write a
+recursive function for computing the sum of the natural numbers between n and m (including
+both of them). Print the resulting value on the screen within the main function.
+
+
+******************************************************************************
+
+
+7.
+Write a program which reads two positive integers a and b from the keyboard. Also write a
+recursive function for determining the gcd (greatest common divisor) of a and b using Euclid’s
+algorithm. According to this algorithm if one of the numbers is divisible by the other then the
+second one is the gcd. If this is not the case then the gcd of the second number and the remainder
+of a/b has to be determined.
+
+
+******************************************************************************
+
+
+8.
+Write a program which reads the first character from the file called char.txt and writes its
+ASCII code value as number into the file called code.txt. Use an editor to create the input file
+char.txt. Your program is responsible to create the output file code.txt.
+
+
+******************************************************************************
+
+
+9.
+Write a program which reads from the keyboard the names of two files containing two integer
+numbers. Your program should read these two values from the two files, compute their sum and
+write the result into a file sum.txt.
+
+
+******************************************************************************
+
+
+10.
+Write a program which reads the content of the file called text.txt line by line and writes them
+into another file called text_copy.txt.
